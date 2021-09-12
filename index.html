@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!--Fuentes-->
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Coda+Caption:wght@800&family=Noto+Serif+JP:wght@200&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@900&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <!--Mis estilos-->
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <title>Aburridos.Com</title>
+</head>
+
+<body>
+    <header>
+        <div class="flex-titulo">
+            <p>Aburridos.<span>Com</span></p>
+            <div class="datos-fecha">
+                <nav class="fecha">
+                    <p id="diaSemana" class="diaSemana"></p>
+                    <p id="dia" class="dia"></p>
+                    <p>de </p>
+                    <p id="mes" class="mes"></p>
+                    <p>de </p>
+                    <p id="year" class="year"></p>
+                </nav>
+                <!--nav para el reloj-->
+                <nav class="reloj">
+                    <p id="horas" class="horas"></p>
+                    <p>:</p>
+                    <p id="minutos" class="minutos"></p>
+                    <p>:</p>
+                    <nav class="caja-segundos">
+                        <p id="ampm" class="ampm"></p>
+                        <p id="segundos" class="segundos"></p>
+                    </nav>
+                </nav>
+            </div>
+            <div class="parrafos">
+                <p>Tienda</p>
+                <p>Online</p>
+
+                <nav class="navegacion-sesion">
+                    <a href="#">Registrate</a>
+                    <a href="#">Inicia Sesión</a>
+                </nav>
+            </div>
+
+        </div>
+
+        <nav class="navegacion-cabeza">
+            <a href="#">Inicio</a>
+            <a href="#">Conócenos</a>
+            <a href="#">Nosotros</a>
+            <a href="#">Misión</a>
+            <a href="#">Visión</a>
+        </nav>
+    </header>
+
+
+    <h2 style="text-align:center" style="color: #55002f;">¡BIENVENIDO!</h2>
+    <!--Este divisor sirve como una representacion de una carta-->
+    <div id="contenedor-productos" class="flex-contenedor">
+    </div>
+    <div class="flex-contenedor">
+        <div class="card">
+            <img class="url-img" src="img/hp1.png">
+            <h2 class="titulo">Harry Potter y la piedra filosofal
+            </h2>
+            <p class="autor">J. K. Rowling</p>
+            <p class="prologo">Harry Potter se ha quedado huérfano y vive en casa de sus abominables tíos y del insoportable primo Dudley. Harry se siente muy triste y solo, hasta que un buen día recibe una carta que cambiará su vida para siempre. En ella le comunican que
+                ha sido aceptado como alumno en el colegio interno Hogwarts de magia y hechicería...</p>
+            <p class="categoria">Lo más vendido</p>
+            <p class="genero">Fantasía / Aventura</p>
+            <p class="precio">$1,499.00</p>
+            <p><button>Comprar</button></p>
+        </div>
+
+        <div class="card">
+            <img class="url-img" src="img/hp2.png">
+            <h2 class="titulo">Harry Potter y la cámara secreta
+            </h2>
+            <p class="autor">J. K. Rowling</p>
+            <p class="prologo">Tras derrotar una vez más a lord Voldemort, su siniestro enemigo en Harry Potter y la piedra filosofal, Harry espera impaciente en casa de sus insoportables tíos el inicio del segundo curso del Colegio Hogwarts de Magia y hechicería. Sin embargo,
+                la espera dura poco, pues un elfo aparece en su habitación y le advierte que una amenaza mortal...</p>
+            <p class="categoria">Lo más vendido</p>
+            <p class="genero">Fantasía / Aventura</p>
+            <p class="precio">$1,499.00</p>
+            <p><button>Comprar</button></p>
+        </div>
+
+        <div class="card">
+            <img class="url-img" src="img/hp3.png">
+            <h2 class="titulo">Harry Potter y el prisionero de Azkaban
+            </h2>
+            <p class="autor">J. K. Rowling</p>
+            <p class="prologo">Por la cicatriz que lleva en la frente, sabemos que Harry Potter no es un niño como los demás, sino el héroe que venció a lord Voldemort, el mago más temible y maligno de todos los tiempos y culpable de la muerte de los padres de Harry...</p>
+            <p class="categoria">Lo más vendido</p>
+            <p class="genero">Fantasía / Aventura</p>
+            <p class="precio">$1,499.00</p>
+            <p><button>Comprar</button></p>
+        </div>
+    </div>
+
+    <div class="flex-contenedor">
+        <div class="card">
+            <img class="url-img" src="img/hp4.png">
+            <h2 class="titulo">Harry Potter y el cáliz de fuego
+            </h2>
+            <p class="autor">J. K. Rowling</p>
+            <p class="prologo">Tras otro abominable verano con los Dursley, Harry se dispone a iniciar el cuarto curso en Hogwarts, la famosa escuela de magia y hechicería. A sus catorce años, a Harry le gustaría ser un joven mago como los demás y dedicarse a aprender nuevos
+                sortilegios, encontrarse con sus amigos Ron y Hermione y asistir con ellos a los Mundiales...</p>
+            <p class="categoria">Lo más vendido</p>
+            <p class="genero">Fantasía / Aventura</p>
+            <p class="precio">$1,499.00</p>
+            <p><button>Comprar</button></p>
+        </div>
+
+        <div class="card">
+            <img class="url-img" src="img/hp5.png">
+            <h2 class="titulo">Harry Potter y la orden del fénix</h2>
+            <p class="autor">J. K. Rowling</p>
+            <p class="prologo">Las tediosas vacaciones de verano en casa de sus tíos todavía no han acabado y Harry se encuentra más inquieto que nunca. Apenas ha tenido noticias de Ron y Hermione, y presiente que algo extraño está sucediendo en Hogwarts. En efecto, cuando
+                por fin comienza otro curso en el famoso colegio de magia y hechicería, sus temores se vuelven...</p>
+            <p class="categoria">Lo más vendido</p>
+            <p class="genero">Fantasía / Aventura</p>
+            <p class="precio">$1,499.00</p>
+            <p><button>Comprar</button></p>
+        </div>
+
+        <div class="card">
+            <img class="url-img" src="img/hp6.png">
+            <h2 class="titulo">Harry Potter y el misterio del príncipe
+            </h2>
+            <p class="autor">J. K. Rowling</p>
+            <p class="prologo">Con dieciséis años cumplidos, Harry inicia el sexto curso en Hogwarts en medio de terribles acontecimientos que asolan Inglaterra. Elegido capitán del equipo de Quidditch, los entrenamientos, los exámenes y las chicas ocupan todo su tiempo...</p>
+            <p class="categoria">Lo más vendido</p>
+            <p class="genero">Fantasía / Aventura</p>
+            <p class="precio">$1,499.00</p>
+            <p><button>Comprar</button></p>
+        </div>
+    </div>
+
+    <hr>
+
+
+    <footer class="flex-contenedor-footer">
+        <div>
+            <nav class="navegacion-pie">
+                <a href="#">Inicio</a>
+                <a href="#">Contáctanos</a>
+            </nav>
+            <p class="parrafo-footer parrafo-marca">&reg; Aburridos.<span class="spam-marca">Com</span> </p>
+        </div>
+        <nav class="navegacion-pie-redes">
+            <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-instagram-square"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-whatsapp-square"></i></a>
+        </nav>
+        <div>
+            <p class="parrafo-footer parrafo-color-grey"><i class="fas fa-envelope email-symbol"></i>DenisseRenteria@gmail.com</p>
+            <p class="parrafo-footer parrafo-color-grey"><i class="fas fa-envelope email-symbol"></i>LorenaReyes4939@gmail.com</p>
+            <p class="parrafo-footer parrafo-color-grey">&copy; Derechos Reservados</p>
+
+        </div>
+
+    </footer>
+    <!--Scripts Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <!--Scripts Fuentes-->
+    <script src="https://kit.fontawesome.com/1dfeee7792.js" crossorigin="anonymous"></script>
+    <!--Scripts Propios-->
+    <script src="./js/scripts.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

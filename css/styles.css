@@ -1,0 +1,319 @@
+body {
+    margin: 0;
+}
+
+hr {
+    width: 96%;
+    height: .1px;
+    background-color: #c7c7c7;
+    border: .1px none #c7c7c7;
+    box-shadow: 0px 2px 10px #adadad;
+    margin-top: 50px;
+}
+
+.flex-titulo {
+    display: flex;
+    margin: 10px 50px 0 50px;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.flex-contenedor {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    margin: auto 30px;
+}
+
+.flex-contenedor-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 50px 30px;
+}
+
+
+/*FECHA*/
+
+.datos-fecha {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    width: 22%;
+}
+
+div .fecha p {
+    display: inline-block;
+    line-height: 0;
+}
+
+div .fecha p {
+    font-family: 'Ubuntu', sans-serif;
+    color: #470228;
+    text-decoration: none;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+div .reloj p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+}
+
+div .reloj {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #470228;
+}
+
+nav .caja-segundos {
+    display: inline-block;
+    align-items: center;
+}
+
+nav .caja-segundos .segundos {
+    display: block;
+    font-size: 12px;
+    width: 100%;
+    max-width: 1000px;
+    align-items: center;
+    text-decoration: none;
+    margin: 1PX;
+}
+
+nav .caja-segundos .ampm {
+    display: block;
+    font-size: 12px;
+    width: 100%;
+    max-width: 1000px;
+    align-items: center;
+    text-decoration: none;
+    margin: 1PX;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 300px;
+    max-width: 100%;
+    /* margin: auto;*/
+    text-align: center;
+    font-family: arial;
+}
+
+.url-img {
+    /* filter: grayscale(100%); */
+    display: block;
+    width: 130px;
+    max-width: 100%;
+    height: auto;
+    border: 5px solid rgba(0, 0, 0, 0.2);
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titulo {
+    color: #492137;
+    text-decoration: none;
+    font-family: 'Abril Fatface', cursive;
+    margin: 10px auto;
+    font-size: 18px;
+}
+
+.autor {
+    color: #470228;
+    text-decoration: none;
+    font-family: 'Abril Fatface', cursive;
+    margin: auto;
+    font-size: 15px;
+}
+
+.prologo {
+    color: #470228;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+    text-transform: inherit;
+    text-align: justify;
+    margin: 7px 20px;
+    font-size: 12px;
+}
+
+.categoria {
+    color: #470228;
+    text-decoration: none;
+    font-family: sans-serif;
+    margin: auto;
+    font-size: 14px;
+}
+
+.genero {
+    color: #470228;
+    text-decoration: none;
+    font-family: sans-serif;
+    margin: auto;
+    font-size: 15px;
+}
+
+.precio {
+    color: #470228;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+    text-transform: inherit;
+    text-align: center;
+    margin: 7px 20px;
+    font-size: 18px;
+}
+
+
+/* :hover {
+    filter: none;
+    } */
+
+.price {
+    color: grey;
+    font-size: 22px;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #55002f;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card button:hover {
+    opacity: 0.7;
+}
+
+
+/* Estilos encabezado */
+
+.flex-titulo {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 20px -15px;
+}
+
+.flex-titulo div {
+    border-left: solid;
+    margin-left: 10px;
+}
+
+span {
+    font-family: 'Noto Serif JP', serif;
+    font-size: 38px;
+}
+
+.flex-titulo p {
+    text-transform: uppercase;
+    margin: 0;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 40px;
+    margin-left: 5px;
+}
+
+.parrafos p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+}
+
+.navegacion-sesion {
+    background-color: #ffffff;
+    display: block;
+    justify-content: flex-end;
+    padding: 20px 10px;
+}
+
+.navegacion-sesion a {
+    color: #55002f;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: capitalize;
+    margin: 30px;
+}
+
+.navegacion-sesion a:hover {
+    color: #b1a9a9;
+}
+
+.navegacion-cabeza {
+    background-color: #55002f;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.navegacion-cabeza a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: capitalize;
+}
+
+.navegacion-cabeza a:hover {
+    color: #b1a9a9;
+}
+
+i {
+    margin: 0 15px;
+}
+
+.email-symbol {
+    margin: 0 1px 0 0;
+    color: rgb(179, 179, 179);
+}
+
+.parrafo-marca {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.spam-marca {
+    font-size: 18px;
+}
+
+.parrafo-footer {
+    margin: 0 0 5px 0;
+}
+
+.parrafo-color-grey {
+    color: #8a014c;
+}
+
+.navegacion-pie a {
+    text-decoration: none;
+    color: #8a014c;
+    font-family: 'Noto Serif JP', serif;
+    margin: 0 10px;
+}
+
+.navegacion-pie a:hover {
+    color: #1a1a1a;
+    border-bottom: solid;
+}
+
+.navegacion-pie-redes a {
+    color: #252324;
+    font-size: 25px;
+}
+
+.navegacion-pie-redes a:hover {
+    color: #8a014c;
+}
